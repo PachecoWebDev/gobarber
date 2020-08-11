@@ -3,7 +3,7 @@ import { injectable, inject } from 'tsyringe';
 import AppError from '@shared/errors/AppError';
 import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
 import IUsersRepository from '../repositories/IUsersRepository';
-import IUSerTokenRepository from '../repositories/IUserTokenRepository';
+import IUSerTokenRepository from '../repositories/IUserTokensRepository';
 
 // import User from '../infra/typeorm/entities/Users';
 // import usersRouter from '../infra/http/routes/users.routes';
