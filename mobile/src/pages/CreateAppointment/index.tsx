@@ -45,7 +45,7 @@ export interface Provider {
 }
 
 interface AvailabilityItem {
-  houy: number;
+  hour: number;
   available: boolean;
 }
 
@@ -207,7 +207,7 @@ const CreateAppointment: React.FC = () => {
               onChange={handleDateChanged}
               mode="date"
               display="calendar"
-              textColor="#f4ede8"
+              // textColor="#f4ede8"
             />
           )}
         </Calendar>
